@@ -1,61 +1,67 @@
 [![Join the chat at https://gitter.im/formio/formio](https://badges.gitter.im/formio/formio.svg)](https://gitter.im/formio/formio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Form.io: The Form and API platform.
+form.io：平台和API的形式。
 ===============================
 
-Form.io is a revolutionary Form and API platform for developers. This repository serves as the core Form and API engine
-for https://form.io. This system allows you to build "serverless" data management applications using a simple drag-and-drop form builder interface. These forms can then easily be embedded within your Angular.js and React applications using the
-```<formio>``` HTML element. 
+Form.io是开发一种革命性的形式和API的平台。该库作为核心的形式和API引擎
+为https://form.io。该系统允许您使用简单的拖放和拖放表单生成器界面来打造“无服务器”的数据管理应用程序。这些形式可以很容易嵌入你的Angular.js内并做出反应使用的应用程序
+```<formio>``` HTML 元素
 
-Form Building & Rendering Demo
+表格构建和渲染演示
 -------------------
-Here is a link to a demo of the Form Building and Form Rendering capability that can be hooked into this API platform. 
+这里是一个链接到一个演示的形式建立和形成渲染能力，可以连接到这个的原料药平台。
+
 
 http://codepen.io/travist/full/xVyMjo/
 
-Installation
+安装
 -------------------
-To get started you will first need the following installed on your machine.
+要开始启动，您将首先需要安装在您的机器上。
 
   - Node.js - https://nodejs.org/en/
   - MongoDB - http://docs.mongodb.org/manual/installation/
-    - On Mac I recomment using Homebrew ```brew install mongodb```
-    - On Windows, download and install the MSI package @ https://www.mongodb.org/downloads
-  - You must then make sure you have MongoDB running by typing ```mongod``` in your terminal.
+    - 我推荐使用自制程序在Mac ```brew install mongodb```
+    - 在线下载和安装Windows，MSI包茶 @ https://www.mongodb.org/downloads
+  - 你必须确保你有MongoDB运行输入 ```mongod``` 在你的终端.
 
-Running
+运行
 -------------------
-You can then download this repository, navigate to the folder in your Terminal, and then type the following.
+然后，您可以下载此存储库，导航到您的终端中的文件夹，然后键入以下文件。
 
 ```
 npm install
 node server
 ```
 
-This will walk you through the installation process.  When it is done, you will have a running Form.io management
-application running at the following address in your browser.
+这将步行你通过安装过程。当这样做，你将有一个运行form.io管理
+
+应用程序在您的浏览器中的下面的地址。
 
 ```
 http://localhost:3001
 ```
 
-The installation process will also ask if you would like to download an application. If selected, the application can be found at the following URL.
+安装过程也会问，如果你想下载一个应用程序。如果选择，应用程序可以在下面的网址找到。
 
 ```
 http://localhost:8080
 ```
 
-You can also see the contents of the application (for modification) within the ```app``` folder which exists inside of the folder where you downloaded this repository.
+您也可以看到在内部的应用程序（修改）的内容 ```app```文件夹中存在的文件夹中，你下载了这个库。
 
-Help
+
+帮助
 --------------------
-We will be updating the help guides found @ https://help.form.io as questions arise and also to help you get started with Form.io.
+我们将更新的帮助指导发现@ https://help.form.io作为问题出现并帮助你开始form.io。
 
-Thanks for using Form.io!
+使用form.io谢谢！
 
-The Form.io Team.
+的form.io团队。
 
-Security
+安全
+
 =========
-If you find and/or think you have found a Security issue, please quietly disclose it to security@form.io, and give us
-sufficient time to patch the issue before disclosing it publicly.
+
+如果你发现和/或认为你找到了一个安全问题，请悄悄透露给security@form.io，给我们
+
+有足够的时间来修补这个问题，在公开之前。
